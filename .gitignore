@@ -1,0 +1,46 @@
+# .gitignore — regras para PHP + Docker + arquivos locais
+
+prova.md
+*prova.md
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Chaves, certificados e arquivos sensíveis
+*.pem
+*.key
+*.crt
+*.cert
+.ssh/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Dependências (Composer)
+/vendor/
+
+# Logs / caches / temporários
+*.log
+logs/
+tmp/
+.cache/
+build/
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+
+# Node (se houver)
+node_modules/
+
+# Outros
+*~
+*.swp
