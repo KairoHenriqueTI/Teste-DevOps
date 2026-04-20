@@ -1,4 +1,4 @@
-# devopsSci — Aplicação PHP + Nginx em Docker
+# Aplicação PHP + Nginx em Docker
 
 Este repositório contém um exemplo simples de aplicação PHP servida por Nginx, empacotada com Docker Compose. O objetivo é demonstrar um fluxo local e um deploy em EC2 com conexão a um banco MySQL hospedado no Amazon RDS.
 
