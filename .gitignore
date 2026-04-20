@@ -1,5 +1,5 @@
 # .gitignore — regras para PHP + Docker + arquivos locais
-
+❯ ssh -i ec2.pem ubuntu@3.134.82.193
 prova.md
 *prova.md
 # Sistema
