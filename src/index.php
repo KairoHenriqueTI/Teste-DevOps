@@ -16,8 +16,8 @@ try {
 	if ($row && isset($row['message'])) {
 		echo htmlspecialchars($row['message'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 	} else {
-		echo "Olá, mundo!";
+		echo "Olá, mundo! teste else";
 	}
 } catch (Exception $e) {
-	echo "Olá, mundo!";
+	echo "Olá, mundo! exception";
 }
