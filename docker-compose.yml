@@ -4,6 +4,8 @@ services:
     build:
       context: ./php
     container_name: php-fpm
+    env_file:
+      - .env
     volumes:
       - ./src:/var/www/html
     expose:
